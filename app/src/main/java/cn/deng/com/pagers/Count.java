@@ -7,4 +7,5 @@ package cn.deng.com.pagers;
 
 public class Count  {
     public  static final  String  VIP_TYPE="vip_type";
+    public  static final  String BASDHAHDSHAS_SAJDJABDS="BSADA";
 }
