@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pagers</string>
+    <string name="more_permission"><u>更多特权>></u></string>
+    <string name="vip_cost">价格 : %1$.2f</string>
+    <string name="vip_validity">有效期 : %1$s</string>
+    <string name="vip_expire_day">到期时间 : %1$s</string>
+    <string name="vip_deal">已同意《重庆城会员协议》</string>
+</resources>

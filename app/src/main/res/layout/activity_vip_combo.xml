@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="黄金会员套餐"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"/>
+    <include layout="@layout/line" />
+    <include layout="@layout/item_vip_continuous_month"/>
+    <include layout="@layout/line" />
+    <include layout="@layout/item_vip_continuous_month"/>
+    <include layout="@layout/line" />
+    <include layout="@layout/item_vip_continuous_month"/>
+    <include layout="@layout/line" />
+    <include layout="@layout/item_vip_continuous_month"/>
+    <include layout="@layout/line" />
+    <include layout="@layout/activity_user_sure"/>
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment"
+        android:name="cn.deng.com.pagers.fragment.VipFragment"
+        android:tag="vip"/>
+
+
+</LinearLayout>

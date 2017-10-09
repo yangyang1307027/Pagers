@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重庆城黄金会员连续包月"
+        android:textSize="12sp"
+        />
+    <TextView
+        android:textSize="12sp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="16dp"
+        android:gravity="right|center"
+        android:text="198元/3个月"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:textColor="#fff"
+        android:background="@drawable/btn_bc"
+        android:text="开通"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
