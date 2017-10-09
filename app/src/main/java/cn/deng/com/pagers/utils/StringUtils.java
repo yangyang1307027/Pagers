@@ -2,6 +2,8 @@ package cn.deng.com.pagers.utils;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.support.annotation.IdRes;
+import android.support.annotation.StringRes;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.ForegroundColorSpan;
@@ -15,11 +17,11 @@ public class StringUtils {
      * 替换字符串
      *
      * @param context 上下文
-     * @param resId   资源ID
+     * @param resId   字符串资源ID
      * @param obj     任意对象
      * @return 替换后的字符串
      */
-    public static String formatString(Context context, int resId, Object obj) {
+    public static String formatString(Context context, @StringRes  int resId, Object obj) {
         String str = context.getResources().getString(resId);
         return String.format(str, obj);
     }
