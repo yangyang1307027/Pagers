@@ -88,6 +88,9 @@ public class VipFragment extends Fragment {
                 outRect.set(0,0,0,0);
             }
         });
+        RecyclerView.RecycledViewPool viewPool=new RecyclerView.RecycledViewPool();
+        mCountView.setRecycledViewPool(viewPool);
+        viewPool.setMaxRecycledViews(0,20);
         VipFragmentAdapter adapter=new VipFragmentAdapter(datas);
         mCountView.setAdapter(adapter);
     }
